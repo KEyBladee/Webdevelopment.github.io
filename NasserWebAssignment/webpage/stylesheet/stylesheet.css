@@ -1,0 +1,92 @@
+p,li {
+    color: rgb(207, 207, 218);
+    font-size: 30px;
+    line-height: 2;
+    letter-spacing: 2;
+} /* this is an example of a shared styling with the 2 elements p , li */
+
+html {
+    background-color: rgb(206, 143, 49);
+} /* this code changes the background color */
+
+h1 {
+    text-align: center;
+    font-size: 50px;
+    text-shadow: 3px 3px 1px rgb(65, 59, 13);
+} /* this centers the h1 element of the webpage and changes it size and the box model of it's content */
+
+#quote {
+    color: rgb(0, 144, 228);
+    font-style: italic;
+} /* this makes id called "quote" change color to red */
+
+.para { /* This is the para class any id with the class para will be modified. */
+
+    color: rgb(201, 208, 212); /* this makes class id para text change color to green */
+    font-family: Arial, Helvetica, sans-serif; /* this makes class id para text change fonts */
+    text-align: center;
+} 
+
+body {
+    margin: auto;
+    width: 60%;
+
+    background-color: r;
+} /* this code adjusts the box model of body and centers it and adds border and changes the border color to orange */
+
+#Mainimg{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+
+} /* this code can adjust the box model of the img on the website and sets the display to block because the img will take it's own space */
+
+li{
+    text-align: left;
+} /* this aligns the list to the center */
+
+ul {
+        list-style: inside;
+}
+
+
+
+
+h2{
+    font-size: xx-large;
+    text-align: center;
+}
+
+footer {
+    position: absolute;
+    bottom: auto;
+    width: 100%;
+    height: 2.5rem;  
+}
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+  }
+  
+  /* Clear floats after image containers */
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+  .row {
+    display: flex;
+  }
+  
+  .column {
+    flex: 33.33%;
+    padding: 5px;
+  }
+
+  .First {
+    background-color: orange;
+  }
