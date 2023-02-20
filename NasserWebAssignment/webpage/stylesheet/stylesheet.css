@@ -15,7 +15,7 @@ h1 {
     text-shadow: 3px 3px 1px rgb(65, 59, 13);
 } /* this centers the h1 element of the webpage and changes it size and the box model of it's content */
 
-#quote {
+.quote {
     color: rgb(0, 144, 228);
     font-style: italic;
 } /* this makes id called "quote" change color to red */
@@ -89,4 +89,21 @@ footer {
 
   .First {
     background-color: orange;
+  }
+/* menubar css */
+  ul.nav {
+    padding-left: 0px;
+    background-color: #423809;
+    text-align: center;
+  }
+  ul.nav > li {
+    display: inline-block;
+    padding: 10px 20px;
+  }
+  ul.nav > li:hover {
+    background-color: #d4ae03;
+  }
+  ul.nav > li > a {
+    color: white;
+    text-decoration: none;
   }
